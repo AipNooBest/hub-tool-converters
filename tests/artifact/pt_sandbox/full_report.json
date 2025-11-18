@@ -1,0 +1,129 @@
+{
+  "data": {
+    "artifacts": [
+      {
+        "artifacts": [],
+        "engine_results": [
+          {
+            "database_time": 1618398601.0,
+            "detections": [
+              {
+                "detect": "Win.Test.EICAR_HDB-1",
+                "threat": "VIRUS"
+              }
+            ],
+            "engine_code_name": "clamav",
+            "engine_subsystem": "AV",
+            "engine_version": "0.102.2",
+            "result": {
+              "errors": [],
+              "scan_state": "FULL",
+              "threat": "VIRUS",
+              "verdict": "DANGEROUS"
+            }
+          },
+          {
+            "database_time": 1617993482.0,
+            "database_version": "1.0.0.552",
+            "detections": [
+              {
+                "detect": "tool_win_ZZ_EICAR__Virus",
+                "threat": "VIRUS"
+              }
+            ],
+            "engine_code_name": "ptesc",
+            "engine_subsystem": "STATIC",
+            "engine_version": "0.0.0.1835+master",
+            "result": {
+              "errors": [],
+              "scan_state": "FULL",
+              "threat": "VIRUS",
+              "verdict": "DANGEROUS"
+            }
+          },
+          {
+            "engine_code_name": "PT",
+            "engine_subsystem": "SANDBOX",
+            "details": {
+              "sandbox": {
+                "image": {
+                  "image_id": "win7-sp1-x64",
+                  "version": "1.0.0.144",
+                  "os": {
+                    "architecture": "x64",
+                    "locale": "ru-RU",
+                    "name": "Microsoft Windows 7 Enterprise",
+                    "service_pack": "sp1",
+                    "version": "6.1.7601.18741"
+                  }
+                },
+                "artifacts": [
+                ],
+                "logs": [
+                  {
+                    "type": "EVENT_CORRELATED",
+                    "file_name": "events-correlated.log.gz",
+                    "file_uri": "sha256:d88eb6f52506b8fdeffd37b98438949901055d47ad5298a99d68cbce77296d31"
+                  }
+                ],
+                "analysis_duration": 124.0,
+                "network_objects": [
+                  {
+                    "type": "IP",
+                    "value": "93.184.216.34"
+                  },
+                  {
+                    "type": "DOMAIN",
+                    "value": "example.com"
+                  },
+                  {
+                    "type": "URL",
+                    "value": "http://example.com/"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "file_info": {
+          "file_path": "",
+          "file_uri": "sha256:215a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f",
+          "md5": "44d88612fea8a7f36de82e1278abb02f",
+          "mime_type": "text/plain; charset=us-ascii",
+          "sha1": "3395856ce81f1b7382dee72602f798b642f14140",
+          "sha256": "275a021bbfb5489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f",
+          "ssdeep": "12:I8UaTNFYsFb46LNVqIe4FIK2DrILX2VF9U/Vn4EAgQhrX/3VVV3d0ZK0OORX:/HjkITGIyuVJA5hrXfVVVtZdOd",
+          "size": 69
+        },
+        "download_url_info": {
+          "reason_phrase": "OK",
+          "state": "FULL",
+          "status_code": 200,
+          "version": "5.x.x"
+        },
+        "network_objects": [
+          {
+            "type": "URL",
+              "value": "https://secure.eicar.org/eicar.com"
+          }
+        ],
+        "result": {
+          "errors": [],
+          "scan_state": "FULL",
+          "threat": "VIRUS",
+          "verdict": "DANGEROUS"
+        },
+        "type": "FILE"
+      }
+    ],
+    "result": {
+      "duration": 0.17754173884168268,
+      "errors": [],
+      "scan_state": "FULL",
+      "threat": "VIRUS",
+      "verdict": "DANGEROUS"
+    },
+    "scan_id": "16d1f7aa-333a-4fe8-8637-786e2956233d"
+  },
+  "errors": []
+}
